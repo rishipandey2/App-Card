@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  /* display: block; */
+  background-color: rgb(91,91,148);
+  
+}
+
+header{
+  width:900px;
+  margin: auto;
+
+}
+h3{
+  margin-left: 3rem;
+ 
+}
+
+.info{
+ 
+  background-color: #fff;
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1rem;
+margin-top: 13rem;
+margin-left: 19rem;
+ 
+}
+
+button{
+  background-color: rgb(102,129,255);
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3,0.09fr);
+  gap: 15px;
+  text-align: center;
+  padding-left: 2.8rem;
+
+}
+
+.Btn{
+  margin-left: 1.32rem ;
+  margin-top: 1rem;
+  
+}
+
+
+.Btn button{
+  width: 18rem;
+  padding: 1rem;
+}
